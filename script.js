@@ -4,7 +4,7 @@ import { getDatabase, ref, push } from "https://www.gstatic.com/firebasejs/11.9.
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAltxYA5KLPNDEWVJ989aPYBnsEkyFKBqk",
+  apiKey: "",
   authDomain: "weatherappfirebase-73f42.firebaseapp.com",
   databaseURL: "https://weatherappfirebase-73f42-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "weatherappfirebase-73f42",
@@ -20,7 +20,7 @@ const database = getDatabase(app);
 // Function to get weather and save search
 window.getWeather = async function () {
   const city = document.getElementById("cityInput").value.trim();
-  const apiKey = "563d855a8722918cb575edbea807963b"; // ✅ Your OpenWeatherMap API key
+  const apiKey = ""; // Your OpenWeatherMap API key
 
   if (city === "") {
     document.getElementById("weatherResult").innerHTML = "❗ Please enter a city name.";
