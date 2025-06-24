@@ -12,6 +12,7 @@ This is a simple yet complete **Weather Application** that allows users to searc
 ## Live App
 
 URL:https://storage.googleapis.com/weather_app_buck/index.html
+
 ⚠️ **Note**: Due to security reasons, the `OpenWeatherMap API key` and Firebase `apiKey` have been removed from the live app.  
 You can clone the project and insert your own keys to make it fully functional.
 ## How It Works
