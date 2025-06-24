@@ -11,7 +11,9 @@ This is a simple yet complete **Weather Application** that allows users to searc
 - Integrated with **Firebase**, **Cloud Pub/Sub**, and **Cloud Logging** for full-stack cloud functionality.
 ## Live App
 
-** URL:https://storage.googleapis.com/weather_app_buck/index.html
+URL:https://storage.googleapis.com/weather_app_buck/index.html
+⚠️ **Note**: Due to security reasons, the `OpenWeatherMap API key` and Firebase `apiKey` have been removed from the live app.  
+You can clone the project and insert your own keys to make it fully functional.
 ## How It Works
 
 1. **User enters a city name.**
