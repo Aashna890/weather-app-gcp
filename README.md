@@ -1,10 +1,10 @@
 # 🌦️ Weather App – Real-time Weather Info with GCP
 
-## 🧠 Overview
+## Overview
 
 This is a simple yet complete **Weather Application** that allows users to search for real-time weather information for any city in the world. The project combines frontend development with key components of **Google Cloud Platform (GCP)** services.
 
-## 📌 Features
+## Features
 
 - Get current **temperature**, **weather condition**, and **wind speed** by entering a city name.
 - Deployed on **Google Cloud Storage** (publicly accessible).
